@@ -25,11 +25,11 @@ class Main:
                                     '\n\nIntroduzca una opción: ').upper()
 
                     if (valor_3 == '1') or (valor_3 == 'SUMAR'):
-                        sumar(int(valor_1), int(valor_2))
+                        sumar(valor_1, valor_2)
                     elif (valor_3 == '2') or (valor_3 == 'RESTAR'):
-                        restar(int(valor_1), int(valor_2))
+                        restar(valor_1, valor_2)
                     elif (valor_3 == '3') or (valor_3 == 'MULTIPLICAR'):
-                        multiplicar(int(valor_1), int(valor_2))
+                        multiplicar(valor_1, valor_2)
                     elif (valor_3 == '4') or (valor_3 == 'DIVIDIR'):
                         dividir(float(valor_1), float(valor_2))
                     elif (valor_3 == '5') or (valor_3 == 'SALIR'):
